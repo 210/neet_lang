@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Neet < Brainfuck
+  nxt '逃げ回ること風の如く'
+  inc '引き籠ること林の如く'
+  prv '親の怒りは火の如く'
+  dec '働かざること山の如し'
+  opn '明日から頑張る'
+  cls '来週から頑張る'
+  put '来月から頑張る'
+  get '来年から頑張る'
+end
+
+puts Neet.new.fuck(ARGF.read)
+
